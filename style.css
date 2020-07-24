@@ -10,7 +10,6 @@ body{
 
 .keys{
     display: flex;
-
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -46,21 +45,4 @@ kbd{
     text-transform: uppercase;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-}
-@media all and (max-width:500px){
-    .keys{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 200px;
-    
-    }
-    .key{
-        width: 100px;
-        border-radius: 20px;
-        margin:5px;
-        font-size: 1rem;
-        padding:5px;
-        
-        
-    }
 }
